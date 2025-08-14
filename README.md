@@ -1,2 +1,2 @@
-# /security
-helper scripts and automation for Security Operations
+# /shed
+useful scripts, ideas - playground etc 
