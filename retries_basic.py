@@ -4,7 +4,7 @@ from time import sleep
 
 # Okay lets contact an API client which doesn't exist and dable a little bit in retries and backoff:
 
-RETRY_CODES = (429, 501, 502, 503, 504) --> useful to have transient error codes to retry on, mainly reference for now.
+RETRY_CODES = (429, 501, 502, 503, 504) --> # useful to have transient error codes to retry on, mainly reference for now.
 
 
 session = requests.Session() # connection pool reuse, stateful 
